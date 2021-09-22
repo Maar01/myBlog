@@ -1,0 +1,13 @@
+{
+    "name": "incfile/my-blog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Avila",
+            "email": "maar01art@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.21"
+    }
+}
