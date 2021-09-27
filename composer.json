@@ -9,5 +9,19 @@
     ],
     "require-dev": {
         "orchestra/testbench": "^6.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Incfile\\MyBlog\\": "src/",
+            "Incfile\\MyBlog\\Factories\\": "database/factories/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Incfile\\MyBlog\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "erusev/parsedown": "^1.7"
     }
 }
